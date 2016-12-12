@@ -141,6 +141,14 @@
               "resources": [
                   "css/bootstrap.css"
               ]
+          },
+          {
+              "name": "nprogress",
+              "path" : "../node_modules/nprogress",
+              "main": "nprogress",
+              "resources": [
+                  "nprogress.css"
+              ]
           }
         ]
       }

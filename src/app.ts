@@ -7,7 +7,7 @@ export class App {
         config.title = 'Contatos';
         config.map([
            { route: '',             moduleId: 'no-selection', title: 'Selecione'}, //Default route
-           { route: 'contatos/:id', moduleId: 'contact-detail', name: 'contatos'} 
+           { route: 'contacts/:id', moduleId: 'contact-details', name: 'contacts'} 
         ]);
     
         this.router = router;
